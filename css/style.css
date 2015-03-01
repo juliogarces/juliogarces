@@ -203,7 +203,7 @@ body {
     font-size: 14px;
     font-weight: normal;
     /*color: #888888;*/
-    color: #00000 !important;
+    color: #000 !important;
     margin: 0;
 }
 
@@ -430,7 +430,7 @@ text-align: center;
 letter-spacing: 1px;
 }
 
-a.read_more, a.read_more2, a.download_cv {
+a.read_more, a.read_more2, a.download_cv, a.download_cv_inverted{
     font-family: 'Raleway', sans-serif;
     display: block;
     font-size: 16px;
@@ -453,7 +453,7 @@ a.read_more{
 	 color: #3C3C3C;
 	 border: 1px solid #3C3C3C;
 }
-a.read_more2:hover, a.read_more:hover, a.download_cv:hover {
+a.read_more2:hover, a.read_more:hover, a.download_cv:hover,a.download_cv_inverted:hover {
     background: #fff;
     color: #0593F9;
     border: 1px solid #fff;
@@ -464,7 +464,7 @@ a.read_more:hover {
     border: 1px solid #ED5441;
 }
 
-a.download_cv {
+a.download_cv, a.download_cv_inverted {
 	
 	margin:10px;
 	width: auto;
@@ -472,7 +472,13 @@ a.download_cv {
 	text-align:center;
 }
 
-
+a.download_cv_inverted {
+	color: #333333;
+    border: 1px solid #333333;
+}
+a.download_cv_inverted:hover {
+	border: 1px solid #333333;
+}
 
 
 
