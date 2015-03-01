@@ -831,6 +831,11 @@ img {
     margin-bottom: 40px;
 }
 
+.client_logos h3, .client_logos p {
+	color: #fff;
+	text-align:center;
+}
+
 /* About Us
 --------------------------- */
  
