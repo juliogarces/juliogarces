@@ -485,12 +485,12 @@ a.download_cv_inverted:hover {
 /* Services
 ---------------------------------*/
 
-#service {
+#service, #skills {
     padding: 60px 0px;
     /*background: #CE1139;*/
     background: #000000;
 }
-#service h2{
+#service h2, #skills h2{
   color: #fff;
 
 }
@@ -544,7 +544,7 @@ text-align: center;
     color: #fff;
 margin: 35px 0 15px; 
 }
-#service h6{
+#service h6, #skills h6{
 color:#fff;
 }
 .service_block p {
@@ -648,7 +648,7 @@ a.contact_btn:hover {
 ---------------------------------*/
 
 
-#Portfolio {
+#Portfolio, #projects {
     padding: 60px 0px;
 }
 
@@ -744,7 +744,7 @@ img {
 
 
 
-#clients {
+#clients, #experience {
     padding: 60px 0px;
 }
 
